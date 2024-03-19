@@ -23,9 +23,9 @@ const addAnumber = fruits2.push("5")
 
 // console.log(fruits2)
 
-console.log(typeof(fruits2))
+// console.log(typeof(fruits2))
 
-console.log(numberoffruits)
+// console.log(numberoffruits)
 
 // console.log(numberoffruits); // 4
 
@@ -36,3 +36,44 @@ console.log(numberoffruits)
 const everythingfromorange = fruits.splice(2,3)
 
 // console.log(everythingfromorange) //["
+
+//   FUNCTIONS//
+// function greet () {
+//     console.log("hello World")
+// }
+// greet()
+
+let add = (x,y) => {
+    return x + y
+}
+// console.log(add(10,7))
+
+// CONDITIONALS STATEMENTS//
+
+// const add2 = "1"+ 1
+// if (add === "1"+1){
+//     console.log ("it is true")
+// }
+
+// let age = 12;
+// if (age < 18) {
+//     console.log("you are a kid")
+//     } else if (age >= 18 && age <=99) {
+// }
+ let age = 18;
+ let AgeGroup;
+
+ if(age >= 25) {
+     AgeGroup ="Adult"
+ }
+else if(age > 16) {
+    AgeGroup ="Teenager"
+}
+else if(age <= 16) {
+        AgeGroup="Minor"
+}
+else{
+    console.log("Unknown Category")
+    return
+}
+console.log(AgeGroup);

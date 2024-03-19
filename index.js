@@ -43,9 +43,9 @@ const everythingfromorange = fruits.splice(2,3)
 // }
 // greet()
 
-let add = (x,y) => {
-    return x + y
-}
+// let add = (x,y) => {
+//     return x + y
+// }
 // console.log(add(10,7))
 
 // CONDITIONALS STATEMENTS//
@@ -60,20 +60,41 @@ let add = (x,y) => {
 //     console.log("you are a kid")
 //     } else if (age >= 18 && age <=99) {
 // }
- let age = 18;
- let AgeGroup;
+//  let age = 18;
+//  let AgeGroup;
 
- if(age >= 25) {
-     AgeGroup ="Adult"
- }
-else if(age > 16) {
-    AgeGroup ="Teenager"
-}
-else if(age <= 16) {
-        AgeGroup="Minor"
-}
-else{
-    console.log("Unknown Category")
-    return
-}
-console.log(AgeGroup);
+//  let sinaye = {}
+//  sinaye.top = "black";
+//  sinaye.bottoms = "white"
+
+//  let John = {
+//     bottoms :"jeans",
+//     top: "t-shirt"
+//  }
+
+//  John.bottoms = "white"
+//  console.log(John.bottoms)
+
+//  if(age >= 25) {
+//      AgeGroup ="Adult"
+//  }
+// else if(age > 16) {
+//     AgeGroup ="Teenager"
+// }
+// else if(age <= 16) {
+//         AgeGroup="Minor"
+// }
+// else{
+//     console.log("Unknown Category")
+//     return
+// }
+// console.log(AgeGroup);
+
+// if(age >= 25){
+//     AgeGroup = "Ädult"
+//     console.log("You are", AgeGroup)
+
+//     if(age == 30)(
+//         console.log("show 30 age group content")
+//     )
+// }

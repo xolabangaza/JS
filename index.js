@@ -17,9 +17,16 @@ const addKiwi = fruits.unshift("kiwi")
 
 
 const fruits2 = ["mango", "banana","orange", "apple", "kiwi"]
-fruits2[2] = "sinaye"
 
-const addAnumber = fruits2.push("5")
+// SEARCHING FOR AN INDEX
+
+const index = fruits2.indexOf("apple")
+
+console.log(index);
+
+// fruits2[2] = "sinaye"
+
+// const addAnumber = fruits2.push("5")
 
 // console.log(fruits2)
 
@@ -99,6 +106,6 @@ const everythingfromorange = fruits.splice(2,3)
 //     )
 // }
 
-for (let i = 0; i <10; i++) {
-    console.log(1);
-}
+// for (let i = 0; i <10; i++) {
+//     console.log(1);
+// }

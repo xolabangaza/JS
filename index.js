@@ -98,3 +98,7 @@ const everythingfromorange = fruits.splice(2,3)
 //         console.log("show 30 age group content")
 //     )
 // }
+
+for (let i = 0; i <10; i++) {
+    console.log(1);
+}

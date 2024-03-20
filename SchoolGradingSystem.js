@@ -6,6 +6,29 @@
 // C = 50 - 59,
 // F = 0  - 49.
 
+//  const Arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+
+
+//  for(i = 0; i < Arr.length ; i++ ) {
+//     if(Arr(i) === target)
+//     console.log("I Found" , target , "at index" , i)
+//    break;
+//  }
+
+
+
+ //  for(i = 0; i < Arr.length; i++) 
+//      if(Arr(i) === target
+
+//          console.log("found" , target , " at index" , i)
+//          break;
+//      )
+//      else(
+//          console.log("Not Found")
+//      )
+//  }
+
+
 let gradeCate = ["A","B","C","F"]
 
 
@@ -33,7 +56,35 @@ else if(student3.mark < 49) {
     student3.gradeCat = gradeCate[3]
 }
 
-console.log(student3)
+// console.log(student3)
+
+
+let start2 = 0
+while(start2 < 10){
+    console.log(start2)
+    start2++
+}
+
+// const Arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+// const target = 9;
+
+// for (let i = 0; i < Arr.length; i++) {
+//     if (Arr[i] === target) {
+//         console.log("found", target, "at index",i);
+//         break;
+//     } else {
+//         console.log("Not Found");
+//     }
+// }
+
+const Arr = [26, 22, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+
+for (let i = 0; i < Arr.length; i++) {
+    Arr[i] *= 2;
+}
+console.log(Arr);
+
+
 
 
 

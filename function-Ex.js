@@ -19,3 +19,6 @@ function reverseString(str) {
 
 console.log(reverseString("DJ")); 
 
+for( let i=1; i<=6 ; i++){
+
+}
